@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    color: white;
+
+}
+
+
+.Sign{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-1 h1{
+    font-size: 70px;
+    font-weight: 900;
+    margin-left: 25%;
+}
+.sec-1 h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 35%;
+}
+.sec-1 p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25%;
+}
+.form-control{
+ width: 50%;
+ height: 50px;
+
+}
+.d-flex{
+    margin-left: 25%;
+}
+.d-flex .btn{
+    width: 25%;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+.col img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+.carousel-item{
+    width: 80%;
+    margin-left: 10%;
+}
+.carousel-item .col img:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+select{
+    height: 35px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    border-color: white;
+}
+.sec-3{
+    background-color: rgb(1, 1, 11);
+
+}
+.sec-3 h2{
+    margin-left: 8%;
+    color: white;
+}
+.sec-3 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+}
+
+.card{
+    background-color: rgb(29, 29, 53);
+    height: 350px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+}
+.sec-4{
+    background-color: black;
+    color: white;
+}
+.sec-4 h2{
+    margin-left: 8%;
+}
+
+.ul{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.ul li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.ul li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    color: white;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    transition: transform(0.5);
+}
+input[type='radio']{
+display: none;
+}
+.ul .content{
+    background: #303030;
+    color: white;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+.ul input[type="radio"]:checked + label + .content{
+max-height: 600px;
+}
+.ul input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.maindiv-final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+   
+}
+.maindiv-final li{
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media screen and (max-width:450px) {
+
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        color: white;
+    
+    }
+
+    .Sign{
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10%;
+        width: 100%;
+    }
+    .nav2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+

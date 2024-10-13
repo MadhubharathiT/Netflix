@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    color: white;
+}
+ nav h1{
+    color: red;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: black;
+    padding: 30px;
+}
+input[type="email"]{
+    width: 100%;
+    height: 50px;
+}
+input[type="password"]{
+    width: 100%;
+    height: 50px;
+}
+.sign{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+.code{
+    width: 100%;
+    height: 50px;
+}
+.for{
+    text-decoration: none;
+    color: white;
+}
+.maindiv-final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+   
+}
+.maindiv-final li{
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+select{
+    height: 35px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    border-color: white;
+}
